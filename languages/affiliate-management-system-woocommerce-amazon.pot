@@ -1,0 +1,431 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-02-07 23:35+0600\n"
+"PO-Revision-Date: 2020-11-30 21:24+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: esc_html_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: affiliate-management-system-woocommerce-amazon.php:144
+msgid "Ams One Day"
+msgstr ""
+
+#: includes/Admin/Dashboard.php:33 includes/Admin/LicenseActivation.php:52
+#: includes/Admin/ProductImportByUrl.php:38
+#: includes/Admin/ProductsSearchWithoutApi.php:52
+#: includes/Admin/ProductsSearchWithoutApi.php:111
+msgid "Busted!"
+msgstr ""
+
+#: includes/Admin/ImportProducts.php:197
+#: includes/Admin/ProductsSearchWithoutApi.php:123
+#: includes/Admin/ProductsSearchWithoutApi.php:245
+msgid "Success"
+msgstr ""
+
+#: includes/Admin/LicenseActivation.php:31
+#: includes/Admin/views/dashboard.php:69
+msgid "Activated"
+msgstr ""
+
+#: includes/Admin/LicenseActivation.php:36
+#: includes/Admin/LicenseActivation.php:65
+#: includes/Admin/views/dashboard.php:69
+msgid "Not Activated"
+msgstr ""
+
+#: includes/Admin/Menu.php:39
+msgid "Ams Amazon"
+msgstr ""
+
+#: includes/Admin/Menu.php:40 includes/Admin/Menu.php:58
+msgid "Setting"
+msgstr ""
+
+#: includes/Admin/Menu.php:44
+msgid "Dashboard"
+msgstr ""
+
+#: includes/Admin/Menu.php:45
+msgid "Product Search"
+msgstr ""
+
+#: includes/Admin/Menu.php:46
+msgid "Products Search Without Api"
+msgstr ""
+
+#: includes/Admin/Menu.php:47
+msgid "Products import by url"
+msgstr ""
+
+#: includes/Admin/ProductImportByUrl.php:83
+msgid "This product already imported"
+msgstr ""
+
+#: includes/Admin/ProductImportByUrl.php:186
+msgid "This product import success full"
+msgstr ""
+
+#: includes/Admin/ProductsSearchWithoutApi.php:85
+#: includes/Admin/Productsearch.php:74 includes/Admin/Productsearch.php:118
+msgid "Already imported"
+msgstr ""
+
+#: includes/Admin/ProductsSearchWithoutApi.php:89
+#: includes/Admin/Productsearch.php:78 includes/Admin/Productsearch.php:122
+msgid "Import Product"
+msgstr ""
+
+#: includes/Admin/ProductsSearchWithoutApi.php:115
+#: includes/Admin/Productsearch.php:35
+msgid "Please activate your license to enable full plugin functionality."
+msgstr ""
+
+#: includes/Admin/ProductsSearchWithoutApi.php:259
+#: includes/Admin/Productsearch.php:232
+msgid "You have cloned the website Please activate the license on the website."
+msgstr ""
+
+#: includes/Admin/Productsearch.php:112
+msgid "View Product"
+msgstr ""
+
+#: includes/Admin/Setting.php:165
+msgid "Your api connect successfully"
+msgstr ""
+
+#: includes/Admin/Setting.php:167
+msgid "Api Connect problem"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:6
+msgid "Total Number of products"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:13
+msgid "Total products views"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:20
+msgid "Products added to cart"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:27
+msgid "Total redirected to Amazon"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:33 includes/Admin/views/dashboard.php:47
+msgid "Unlimited"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:34
+msgid "Products search limit"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:41
+msgid "Total Products search"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:48
+msgid "Products search left limit"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:54
+msgid "8640"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:55
+msgid "Api requests can be sent per day"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:64
+msgid "Activation"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:76 includes/Admin/views/dashboard.php:90
+msgid "CodeCanyon License"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:79 includes/Assets.php:48
+msgid "Deactivated"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:94
+msgid "Please, enter your plugin's CodeCanyon purchase code"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:103
+msgid "Activate License"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:107
+msgid "What is CodeCanyon purchase code?"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:109
+msgid ""
+"Purchase code is a license key, that you get after buying the plugin on "
+"CodeCanyon. It looks like this:"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:112
+msgid "How do I get my purchase code?"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:116
+msgid "After purchasing the item, go to"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:119
+msgid ""
+"click \"Download\" and select “License Certificate & Purchase Code”. You’ll "
+"find your purchase code in the downloaded file."
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:125
+msgid "How do I activate a CodeCanyon license?"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:127
+msgid ""
+"To activate your license in the plugin insert you purchase code into the "
+"CodeCanyon License form above and press “Activate License” button. After the "
+"successful activation"
+msgstr ""
+
+#: includes/Admin/views/product-import-by-url.php:11
+msgid ""
+"If you want to import multiple products use commas \",\" at the end of each "
+"url"
+msgstr ""
+
+#: includes/Admin/views/product-import-by-url.php:16
+msgid "Product Import"
+msgstr ""
+
+#: includes/Admin/views/product.php:6
+msgid "Keyword Search"
+msgstr ""
+
+#: includes/Admin/views/product.php:7
+msgid "ASIN Numbers"
+msgstr ""
+
+#: includes/Admin/views/product.php:27
+msgid "Relevance"
+msgstr ""
+
+#: includes/Admin/views/product.php:28
+msgid "AvgCustomerReviews"
+msgstr ""
+
+#: includes/Admin/views/product.php:29
+msgid "Featured"
+msgstr ""
+
+#: includes/Admin/views/product.php:30
+msgid "NewestArrivals"
+msgstr ""
+
+#: includes/Admin/views/product.php:31
+msgid "Price:HighToLow"
+msgstr ""
+
+#: includes/Admin/views/setting-affiliate.php:2
+#: includes/Admin/views/setting-general.php:2
+msgid "Affiliate Management System - WooCommerce Amazon"
+msgstr ""
+
+#: includes/Admin/views/setting-affiliate.php:5
+#: includes/Admin/views/setting-general.php:5
+#: includes/Admin/views/setting-general.php:9
+msgid "General"
+msgstr ""
+
+#: includes/Admin/views/setting-affiliate.php:6
+#: includes/Admin/views/setting-general.php:6
+msgid "Amazon Settings"
+msgstr ""
+
+#: includes/Admin/views/setting-affiliate.php:11
+msgid "Credentials"
+msgstr ""
+
+#: includes/Admin/views/setting-affiliate.php:17
+msgid "Access Key ID"
+msgstr ""
+
+#: includes/Admin/views/setting-affiliate.php:25
+msgid "Secret Access Key"
+msgstr ""
+
+#: includes/Admin/views/setting-affiliate.php:33
+msgid "Amazon Affiliate Associate Tag"
+msgstr ""
+
+#: includes/Admin/views/setting-affiliate.php:40
+msgid "Select Country"
+msgstr ""
+
+#: includes/Admin/views/setting-affiliate.php:57
+#: includes/Admin/views/setting-general.php:127
+msgid "Save Settings"
+msgstr ""
+
+#: includes/Admin/views/setting-affiliate.php:64
+msgid "Amazon api test"
+msgstr ""
+
+#: includes/Admin/views/setting-affiliate.php:65
+msgid ""
+"Test your API settings to make sure everything is setup correctly. Save your "
+"settings before testing."
+msgstr ""
+
+#: includes/Admin/views/setting-affiliate.php:67
+msgid "Test API Settings"
+msgstr ""
+
+#: includes/Admin/views/setting-general.php:10
+msgid ""
+"All General setting for Affiliate Management System - WooCommerce Amazon."
+msgstr ""
+
+#: includes/Admin/views/setting-general.php:16
+msgid "Product Per Page"
+msgstr ""
+
+#: includes/Admin/views/setting-general.php:20
+msgid ""
+"To display products per request to Amazon store by restful api.Example "
+"-5,6,8,10 etc and max value 10"
+msgstr ""
+
+#: includes/Admin/views/setting-general.php:25
+msgid "Buy Now Label"
+msgstr ""
+
+#: includes/Admin/views/setting-general.php:33
+msgid "Buy Now Button Action"
+msgstr ""
+
+#: includes/Admin/views/setting-general.php:37
+msgid "Direct Amazon Details Page (for Affiliate 24 hour cookie)"
+msgstr ""
+
+#: includes/Admin/views/setting-general.php:40
+msgid "Direct Amazon Cart Page (for Affiliate 90 day cookie)"
+msgstr ""
+
+#: includes/Admin/views/setting-general.php:43
+msgid ""
+"Product will be added to site cart whent click checkout it will be "
+"redirected to Amazon Cart Page (for Affiliate 90 day cookie)"
+msgstr ""
+
+#: includes/Admin/views/setting-general.php:46
+msgid ""
+"Product will be added to site cart when will checkout than add order list "
+"for DropShip"
+msgstr ""
+
+#: includes/Admin/views/setting-general.php:52
+msgid "Custom Tax (% Percentage) "
+msgstr ""
+
+#: includes/Admin/views/setting-general.php:56
+msgid ""
+"How many percentage will be added to the price as profit amount for single "
+"product"
+msgstr ""
+
+#: includes/Admin/views/setting-general.php:61
+msgid "Enable No Follow to Link"
+msgstr ""
+
+#: includes/Admin/views/setting-general.php:65
+#: includes/Admin/views/setting-general.php:107
+msgid "Yes"
+msgstr ""
+
+#: includes/Admin/views/setting-general.php:68
+#: includes/Admin/views/setting-general.php:108
+msgid "No"
+msgstr ""
+
+#: includes/Admin/views/setting-general.php:73
+msgid "Product Import Default Category"
+msgstr ""
+
+#: includes/Admin/views/setting-general.php:88
+msgid "Checkout Message"
+msgstr ""
+
+#: includes/Admin/views/setting-general.php:96
+msgid "Checkout redirect in"
+msgstr ""
+
+#: includes/Admin/views/setting-general.php:100
+msgid "How many seconds to wait before redirect to Amazon!"
+msgstr ""
+
+#: includes/Admin/views/setting-general.php:104
+msgid "Remote amazon images"
+msgstr ""
+
+#: includes/Admin/views/setting-general.php:113
+msgid "Select remote images sizes"
+msgstr ""
+
+#: includes/Admin/views/setting-general.php:116
+msgid "Large (500 X 500)"
+msgstr ""
+
+#: includes/Admin/views/setting-general.php:117
+msgid "Medium (160 X 160)"
+msgstr ""
+
+#: includes/Admin/views/setting-general.php:118
+msgid "Small (75 X 75)"
+msgstr ""
+
+#: includes/Assets.php:46
+msgid "Importing"
+msgstr ""
+
+#: includes/Assets.php:47
+msgid "Loading..."
+msgstr ""
+
+#: includes/Assets.php:49
+msgid ""
+"Product import request sent successfully. You have to wait for the import "
+"to Completed"
+msgstr ""
+
+#: includes/functions.php:670
+msgid ""
+"Affiliate Management System - WooCommerce Amazon requires WooCommerce to be "
+"installed and active. You can download"
+msgstr ""
+
+#: includes/functions.php:674
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/functions.php:683
+msgid ""
+"Affiliate Management System - WooCommerce Amazon plugin license not "
+"activated Please activate the plugin's license"
+msgstr ""

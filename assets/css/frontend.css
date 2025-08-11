@@ -1,0 +1,435 @@
+/**
+ * Add frontend css here
+ */
+
+.aplus-v2 .aplus-standard .apm-sidemodule {
+    background: transparent !important;
+}
+.aplus-v2 .premium-aplus-module-5 .table-container.loading {
+    opacity: 1 !important;
+}
+#aplus_feature_div input[type=submit] {
+    display: none;
+}
+/*original*/
+
+.ams-buy-button, .ams-buy-button-container .ams-buy-button {
+    display: block !important;
+    width: 100% !important;
+    height: auto;
+    padding: 1em;
+    border-radius: inherit;
+    font-size: inherit;
+    line-height: 1.5;
+    cursor: pointer;
+    border: none;
+    background: inherit;
+    color: inherit;
+    transition: inherit;
+    margin-bottom: 0.5em !important;
+    box-sizing: border-box;
+    text-align: center;
+}
+.ams-buy-button:hover, .ams-buy-button-container .ams-buy-button:hover {
+    background: inherit;
+    color: inherit;
+}
+.ams-buy-button-container {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+}
+.woocommerce div.product form.cart .ams-buy-button-container {
+    margin-bottom: 1em;
+}
+.ams-buy-button .product_meta {
+    margin-top: 1em !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: start !important;
+    width: 100% !important;
+}
+.ams-buy-button .product_meta span {
+    margin-bottom: 0.5em !important;
+}
+@media (max-width: 768px) {
+    .ams-buy-button, .ams-buy-button-container .ams-buy-button {
+        width: 100% !important;
+    }
+}
+/* Style 1: Default */
+
+.custom-dynamic-notice.style1 {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #007cba;
+    color: #333;
+}
+/* Style 2: Alert */
+
+.custom-dynamic-notice.style2 {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffdddd;
+    border-left: 4px solid #ff0000;
+    color: #a00000;
+}
+/* Style 3: Success */
+
+.custom-dynamic-notice.style3 {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ddffdd;
+    border-left: 4px solid #00a000;
+    color: #007000;
+}
+/* Style 4: Warning */
+
+.custom-dynamic-notice.style4 {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffffdd;
+    border-left: 4px solid #ffa500;
+    color: #a07600;
+}
+/* Style 5: Modern */
+
+.custom-dynamic-notice.style5 {
+    margin-bottom: 15px;
+    padding: 15px;
+    background: linear-gradient(to bottom, #ffffff, #e8e8e8);
+    /* Subtle vertical gradient */
+    border-left: 5px dashed #444;
+    /* Dashed border for a modern look */
+    border-radius: 8px;
+    /* Rounded corners for a smoother design */
+    color: #333;
+    /* Neutral dark text color */
+    font-family: "Arial", sans-serif;
+    /* Modern font family */
+    font-weight: bold;
+    /* Slightly bold text */
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    text-align: center;
+    /* Center-align the text for emphasis */
+}
+/* Custom grid container */
+
+.ams-custom-grid {
+    display: block;
+    margin: 20px 0;
+    padding: 0;
+}
+/* Grid layout */
+
+.ams-grid {
+    display: grid;
+    grid-template-columns: repeat(var(--ams-columns, 4), 1fr);
+    /* Dynamic columns based on shortcode */
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* Individual product card */
+
+.ams-grid .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    overflow: hidden;
+}
+/* Hover effects for the product card */
+
+.ams-grid .product:hover {
+    transform: translateY(-3px);
+    /* Subtle lift */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Product image */
+
+.ams-grid .product .product-image img {
+    max-height: 150px;
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+/* Title styling */
+
+.ams-grid .product .product-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin: 10px 0;
+    line-height: 1.4;
+    text-align: center;
+    height: 40px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+/* Price styling */
+
+.ams-grid .product .price {
+    font-size: 14px;
+    font-weight: bold;
+    color: #0071a1;
+    margin: 10px 0;
+    text-align: center;
+}
+/* Add to Cart button */
+
+.ams-grid .product .button {
+    background-color: #0071a1;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 100%;
+    transition: background-color 0.2s;
+    display: flex;
+    /* Add flex for aligning icon and text */
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    /* Space between icon and text */
+}
+/* Button hover effect */
+
+.ams-grid .product .button:hover {
+    background-color: #005a8c;
+}
+/* Style for the button icon */
+
+.ams-grid .product .button i, .ams-grid .product .button svg {
+    font-size: 16px;
+    /* Set consistent icon size */
+    width: 16px;
+    height: 16px;
+    color: #fff;
+    /* Match the icon color with text */
+    margin: 0;
+    /* Remove any default margins */
+    padding: 0;
+    transition: transform 0.2s ease;
+    /* Add smooth scaling for hover */
+}
+/* Icon hover effect */
+
+.ams-grid .product .button:hover i, .ams-grid .product .button:hover svg {
+    transform: scale(1.1);
+    /* Slightly enlarge the icon on hover */
+}
+/* Star rating display */
+
+.rating-stars {
+    font-size: 16px;
+    color: #ffcc00;
+    /* Gold color for stars */
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* Space between stars and number */
+}
+.rating-stars .rating-number {
+    font-size: 14px;
+    color: #333;
+    /* Neutral color for the rating number */
+}
+/* Footer text styling */
+
+.ams-footer-text {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+}
+.ams-footer-text p {
+    margin: 5px 0;
+}
+/* Single product container */
+
+.ams-single-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 400px;
+    /* Restrict maximum width for the single product */
+    width: 100%;
+    /* Allow responsive scaling */
+    box-sizing: border-box;
+    /* Include padding in width calculation */
+}
+/* Single product styling */
+
+.ams-single-product .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    overflow: hidden;
+    width: 100%;
+    /* Ensure the product fits inside the restricted container */
+    box-sizing: border-box;
+    /* Prevent padding from breaking layout */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add subtle shadow */
+    margin: 0 auto;
+    /* Center the product card */
+}
+/* Hover effect for single product */
+
+.ams-single-product .product:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+/* Single product image */
+
+.ams-single-product .product .product-image img {
+    max-height: 200px;
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+/* Match single product title, price, and button with proportional styles */
+
+.ams-single-product .product .product-title {
+    font-size: 16px;
+    /* Slightly smaller than multi-product */
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+    text-align: center;
+}
+.ams-single-product .product .price {
+    font-size: 14px;
+    color: #0071a1;
+    margin: 10px 0;
+}
+.ams-single-product .product .button {
+    background-color: #0071a1;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    /* Adjust padding for proportionality */
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 200px;
+    /* Limit button width */
+    text-align: center;
+    transition: background-color 0.2s;
+    display: flex;
+    /* Flex for icon alignment */
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    /* Space between text and icon */
+}
+.ams-single-product .product .button:hover {
+    background-color: #005a8c;
+}
+/* Icon styling inside the button */
+
+.ams-single-product .product .button i, .ams-single-product .product .button svg {
+    font-size: 16px;
+    /* Set consistent icon size */
+    width: 16px;
+    height: 16px;
+    color: #fff;
+    /* Match the icon color with text */
+    margin: 0;
+    /* Remove any default margins */
+    padding: 0;
+    transition: transform 0.2s ease;
+    /* Add smooth scaling for hover */
+}
+/* Icon hover effect */
+
+.ams-single-product .product .button:hover i, .ams-single-product .product .button:hover svg {
+    transform: scale(1.1);
+    /* Slightly enlarge the icon on hover */
+}
+/* Adjust rating stars for single product */
+
+.ams-single-product .product .rating-stars {
+    font-size: 14px;
+    /* Smaller star size for single product */
+    margin: 8px 0;
+}
+.ams-single-product .product .rating-stars .rating-number {
+    font-size: 12px;
+    color: #555;
+    /* Subtle text for the number */
+}
+/* Custom notification for shortcode */
+
+.custom-notification {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+/* Global notification at the bottom of the page */
+
+.global-notification {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+/* Styling for the Legal Notice Text on the Frontend */
+
+/* Wrapper styling for the legal notice */
+
+.legal-notice {
+    font-size: 14px;
+    /* Standard font size */
+    color: #6c757d;
+    /* Muted text color for subtle emphasis */
+    text-align: center;
+    /* Center the text by default */
+    margin-top: 20px;
+    /* Space above the legal notice */
+    font-style: italic;
+    /* Optional: Italicize the text for emphasis */
+}
+/* Alignment adjustments (if needed) */
+
+.legal-notice.align-left {
+    text-align: left;
+}
+.legal-notice.align-right {
+    text-align: right;
+}
