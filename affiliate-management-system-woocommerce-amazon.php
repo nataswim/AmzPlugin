@@ -1,20 +1,20 @@
 <?php
 /**
- * Plugin Name:       AMS - WooCommerce Amazon
- * Plugin URI:        https://affiliatepro.org/
+ * Plugin Name:       
+
  * Description:       Transform your WooCommerce store into a powerful Amazon affiliate platform...
  * Version:           10.1.6
  * Requires at least: 5.6
  * Tested up to:      <?php echo $wp_version; // Current WordPress version ?>
  * Requires PHP:      7.4
  * Author:            AffiliateProSaaS
- * Author URI:        https://affiliatepro.org/
+ * Author URI:        
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       ams-wc-amazon
  * Domain Path:       /languages/
  * WC requires at least: 5.0
- * Update URI:        https://affiliatepro.org/woocommerce-amazon-logs/
+ * Update URI:        woocommerce-amazon-logs/
  * Network:           true
  * Last Updated:      2025-04-15
  * Downloads:         1000000
@@ -102,7 +102,7 @@ if (!class_exists('AmsWcAmazon')) {
                 define('AMS_PLUGIN_VERSION', $plugin_data['Version']);
             }
             if (!defined('AMS_PLUGIN_NAME')) {
-                define('AMS_PLUGIN_NAME', 'AMS - WooCommerce Amazon');
+                define('AMS_PLUGIN_NAME', '');
             }
             if (!defined('AMS_BRAND_NO_LOGO')) {
                 define('AMS_BRAND_NO_LOGO', AMS_PLUGIN_URL . 'assets/img/brand/no-logo.png');

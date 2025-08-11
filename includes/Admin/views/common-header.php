@@ -58,7 +58,7 @@ $wca_license = sprintf('<span class="%s">%s</span>', $wca_license_class, $wca_li
 <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
   <div class="container-fluid">
     <a class="navbar-brand" href="?page=wc-amazon-affiliate">
-      <img src="<?php echo esc_url(AMS_PLUGIN_URL . 'assets/img/brand/ams.png'); ?>" alt="AMS - WooCommerce Amazon" height="30">
+      <img src="<?php echo esc_url(AMS_PLUGIN_URL . 'assets/img/brand/ams.png'); ?>" alt="" height="30">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

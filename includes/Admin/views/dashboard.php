@@ -7,7 +7,7 @@
       <div class="header-body">
         <div class="row align-items-center mb-4">
           <div class="col-lg-6">
-            <h1 class="display-4 text-white fw-bold mb-0"><?php esc_html_e('AMS - WooCommerce Amazon Dashboard', 'ams-wc-amazon'); ?></h1>
+            <h1 class="display-4 text-white fw-bold mb-0"><?php esc_html_e(' Dashboard', 'ams-wc-amazon'); ?></h1>
           </div>
           <div class="col-lg-6 text-lg-end mt-3 mt-lg-0">
           <span class="badge bg-light text-primary p-2 fs-6 me-2">
@@ -123,10 +123,10 @@
         <a href="?page=view-logs" class="btn btn-outline-primary d-block mb-3 py-2 fs-5" target="_blank" rel="noopener noreferrer">
           <i class="fas fa-list-ul me-2"></i><?php esc_html_e('View Logs', 'ams-wc-amazon'); ?>
         </a>
-        <a href="https://affiliatepro.org/knowledge-base/" class="btn btn-outline-info d-block mb-3 py-2 fs-5" target="_blank" rel="noopener noreferrer">
+        <a href="knowledge-base/" class="btn btn-outline-info d-block mb-3 py-2 fs-5" target="_blank" rel="noopener noreferrer">
           <i class="fas fa-question-circle me-2"></i><?php esc_html_e('Help & Documentation', 'ams-wc-amazon'); ?>
         </a>
-        <a href="https://affiliatepro.org/suggestion-request/" class="btn btn-outline-success d-block py-2 fs-5" target="_blank" rel="noopener noreferrer">
+        <a href="suggestion-request/" class="btn btn-outline-success d-block py-2 fs-5" target="_blank" rel="noopener noreferrer">
           <i class="fas fa-lightbulb me-2"></i><?php esc_html_e('Submit Suggestion', 'ams-wc-amazon'); ?>
         </a>
       </div>
@@ -134,7 +134,7 @@
     
     <div class="offcanvas-footer bg-light p-3">
       <div class="d-flex justify-content-between align-items-center">
-        <span class="text-muted fs-6"><?php esc_html_e('AMS - WooCommerce Amazon', 'ams-wc-amazon'); ?></span>
+        <span class="text-muted fs-6"><?php esc_html_e('', 'ams-wc-amazon'); ?></span>
         <span class="badge bg-primary fs-6">v<?php echo esc_html(AMS_PLUGIN_VERSION); ?></span>
       </div>
     </div>
@@ -539,7 +539,7 @@
         <div class="card-body">
           <div class="row g-3">
             <div class="col-md-4">
-              <a href="https://affiliatepro.org/woocommerce-amazon-logs/" target="_blank" class="card bg-gradient-primary border-0 h-100">
+              <a href="woocommerce-amazon-logs/" target="_blank" class="card bg-gradient-primary border-0 h-100">
                 <div class="card-body d-flex align-items-center text-white">
                   <div class="icon-shape bg-white text-primary rounded-circle shadow d-flex align-items-center justify-content-center me-3" style="width: 32px; height: 32px;">
                     <i class="fas fa-clipboard-list"></i>
@@ -551,7 +551,7 @@
             </div>
             
             <div class="col-md-4">
-              <a href="https://affiliatepro.org/knowledge-base/" target="_blank" class="card bg-gradient-info border-0 h-100">
+              <a href="knowledge-base/" target="_blank" class="card bg-gradient-info border-0 h-100">
                 <div class="card-body d-flex align-items-center text-white">
                   <div class="icon-shape bg-white text-info rounded-circle shadow d-flex align-items-center justify-content-center me-3" style="width: 32px; height: 32px;">
                     <i class="fas fa-book"></i>
@@ -563,7 +563,7 @@
             </div>
 
             <div class="col-md-4">
-              <a href="https://affiliatepro.org/suggestion-request/" target="_blank" class="card bg-gradient-success border-0 h-100">
+              <a href="suggestion-request/" target="_blank" class="card bg-gradient-success border-0 h-100">
                 <div class="card-body d-flex align-items-center text-white">
                   <div class="icon-shape bg-white text-success rounded-circle shadow d-flex align-items-center justify-content-center me-3" style="width: 32px; height: 32px;">
                     <i class="fas fa-lightbulb"></i>
@@ -590,7 +590,7 @@
             <img src="<?php echo esc_url(AMS_PLUGIN_URL . 'assets/img/brand/ams.png'); ?>" alt="AMS Amazon Logo" class="me-2" style="height: 30px;">
             <span class="text-muted">
               &copy; <?php echo date("Y"); ?> 
-              <a href="https://affiliatepro.org/" class="text-primary text-decoration-none fw-bold" target="_blank">
+              <a href="" class="text-primary text-decoration-none fw-bold" target="_blank">
                 <?php esc_html_e('AMS Amazon', 'ams-wc-amazon'); ?>
               </a>
             </span>
@@ -609,7 +609,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="https://affiliatepro.org/knowledge-base/" class="nav-link px-2 text-muted" target="_blank">
+              <a href="knowledge-base/" class="nav-link px-2 text-muted" target="_blank">
                 <i class="fas fa-book me-1"></i><?php esc_html_e('Documentation', 'ams-wc-amazon'); ?>
               </a>
             </li>

@@ -7444,7 +7444,7 @@ function ams_plugin_information_content($false, $action, $response) {
 
         'installation' => '<strong>INSTALLATION INSTRUCTIONS</strong>
             <ol>
-                <li>Download the AMS - WooCommerce Amazon plugin ZIP file from your CodeCanyon account.</li>
+                <li>Download the  plugin ZIP file from your CodeCanyon account.</li>
                 <li>Log in to your WordPress admin panel.</li>
                 <li>Navigate to Plugins > Add New.</li>
                 <li>Click on the "Upload Plugin" button at the top of the page.</li>
@@ -7459,10 +7459,10 @@ function ams_plugin_information_content($false, $action, $response) {
                     <ul>
                         <li>Log in to your Envato account.</li>
                         <li>Go to your Downloads page.</li>
-                        <li>Click "Download" next to AMS - WooCommerce Amazon.</li>
+                        <li>Click "Download" next to .</li>
                         <li>Choose "License certificate & purchase code (text)" from the dropdown.</li>
                     </ul>
-                    For more detailed instructions, refer to <a href="https://affiliatepro.org/kb-article/how-to-find-your-ams-woocommerce-amazon-purchase-code/" target="_blank">Envato\'s guide on finding your purchase code</a>.
+                    For more detailed instructions, refer to <a href="kb-article/how-to-find-your-ams-woocommerce-amazon-purchase-code/" target="_blank">Envato\'s guide on finding your purchase code</a>.
                 </li>
                 <li>Once you have your purchase code:
                     <ul>
@@ -7475,7 +7475,7 @@ function ams_plugin_information_content($false, $action, $response) {
                 <li>After successful activation, it\'s recommended to review and adjust the plugin settings to suit your needs.</li>
             </ol>
 
-            <p>For more detailed setup instructions and troubleshooting, please refer to our <a href="https://affiliatepro.org/knowledge-base/" target="_blank">Knowledge Base</a>.</p>
+            <p>For more detailed setup instructions and troubleshooting, please refer to our <a href="knowledge-base/" target="_blank">Knowledge Base</a>.</p>
         ',
         'faq' => '
         <h3>Frequently Asked Questions</h3>
@@ -7516,7 +7516,7 @@ function ams_plugin_information_content($false, $action, $response) {
         'changelog' => sprintf('
             <h3>Updates Log – Version %s</h3>
             <p>We regularly update our plugin to bring you new features, improvements, and bug fixes. To see the detailed changelog for this version, please visit our official changelog page:</p>
-            <p><a href="https://affiliatepro.org/woocommerce-amazon-logs/">View Full Changelog</a></p>
+            <p><a href="woocommerce-amazon-logs/">View Full Changelog</a></p>
             <p>Thank you for using our plugin. We\'re committed to continually enhancing your experience!</p>
             ',
             get_file_data(AMS_PLUGIN_FILE, array('Version' => 'Version'))['Version']
@@ -7706,17 +7706,17 @@ function ams_add_action_links($links) {
 function ams_plugin_row_meta($plugin_meta, $plugin_file, $plugin_data, $status) {
     if (plugin_basename(AMS_PLUGIN_FILE) == $plugin_file) {
         $row_meta = array(
-            'docs'    => '<a href="' . esc_url('https://affiliatepro.org/knowledge-base/') . '" target="_blank" aria-label="' . esc_attr__('Documentation', 'ams-wc-amazon') . '">' . esc_html__('Documentation', 'ams-wc-amazon') . '</a>',
-            'support' => '<a href="' . esc_url('https://affiliatepro.org/support/') . '" target="_blank" aria-label="' . esc_attr__('Support', 'ams-wc-amazon') . '">' . esc_html__('Support', 'ams-wc-amazon') . '</a>',
-            'demo'    => '<a href="' . esc_url('https://affiliatepro.org/woocommerce-amazon-free-demo/') . '" target="_blank" aria-label="' . esc_attr__('Demo', 'ams-wc-amazon') . '">' . esc_html__('Demo', 'ams-wc-amazon') . '</a>',
-            'view_details' => '<a href="' . self_admin_url('plugin-install.php?tab=plugin-information&plugin=ams-wc-amazon&TB_iframe=true&width=772&height=563') . '" class="thickbox open-plugin-details-modal" aria-label="' . esc_attr__('View AMS - WooCommerce Amazon details', 'ams-wc-amazon') . '">' . esc_html__('View details', 'ams-wc-amazon') . '</a>'
+            'docs'    => '<a href="' . esc_url('knowledge-base/') . '" target="_blank" aria-label="' . esc_attr__('Documentation', 'ams-wc-amazon') . '">' . esc_html__('Documentation', 'ams-wc-amazon') . '</a>',
+            'support' => '<a href="' . esc_url('support/') . '" target="_blank" aria-label="' . esc_attr__('Support', 'ams-wc-amazon') . '">' . esc_html__('Support', 'ams-wc-amazon') . '</a>',
+            'demo'    => '<a href="' . esc_url('woocommerce-amazon-free-demo/') . '" target="_blank" aria-label="' . esc_attr__('Demo', 'ams-wc-amazon') . '">' . esc_html__('Demo', 'ams-wc-amazon') . '</a>',
+            'view_details' => '<a href="' . self_admin_url('plugin-install.php?tab=plugin-information&plugin=ams-wc-amazon&TB_iframe=true&width=772&height=563') . '" class="thickbox open-plugin-details-modal" aria-label="' . esc_attr__('View  details', 'ams-wc-amazon') . '">' . esc_html__('View details', 'ams-wc-amazon') . '</a>'
         );
         $plugin_meta = array_merge($plugin_meta, $row_meta);
 
         $new_version = ams_check_version();
         if ($new_version && version_compare(AMS_PLUGIN_VERSION, $new_version, '<')) {
             $update_url = 'https://codecanyon.net/downloads/';
-            $details_url = 'https://affiliatepro.org/woocommerce-amazon-logs/';
+            $details_url = 'woocommerce-amazon-logs/';
             
             $update_notice = sprintf(
                 '<div class="ams-update-notice">
